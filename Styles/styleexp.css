@@ -1,0 +1,268 @@
+@font-face
+{
+	font-family: 'Lato';
+	src: url('font/Lato-Regular.ttf')
+}
+
+html body
+{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Lato';
+	background-color: #131C28;
+}
+
+header
+{
+	margin-bottom: 30px;
+}
+
+.navegacion
+{
+	border-bottom-style: ridge;
+	background-color: #1A304D;
+	border-bottom-style: none;
+}
+
+
+.namesini
+{
+	display: inline;
+	padding-bottom: 40px;
+	top: 15px;
+	left: 1315px;
+	position: absolute;
+}
+
+.namesini h1
+{
+	display: inline;
+	text-align: center;
+	color: white;
+	font-size: 25px;
+}
+
+.contacto
+{
+	display: inline;
+	float: right;
+	padding-top: 7.5px;
+	padding-right: 7.5px;
+}
+.contacto img
+{
+	padding-left: 10px;
+	width: 50px;
+	height: 50px;
+}
+
+
+
+h1
+{
+	color: white;
+	margin-left: 20px;
+}
+
+
+.gral
+{
+	margin-left: 30px;
+}
+.gral p
+{
+	color: white;
+	display: inline;
+}
+
+
+.gral input
+{
+	margin: 5px;
+	padding: 5px;
+	font-size: 16px;
+	margin-left: 10px;
+	margin-right: 30px;
+	width: 150px;
+	display: inline;
+	margin-bottom: 10px; 
+	background-color: #1A304D;
+	height: 30px;
+	border-color: #4AE4BD;
+	border-radius: 10px;
+	color: white;
+}
+
+.gral .special
+{
+	margin: 5px;
+	padding: 5px;
+	font-size: 16px;
+	margin-left: 53px;
+	margin-right: 30px;
+	width: 760px;
+	display: inline;
+	margin-bottom: 10px; 
+	background-color: #1A304D;
+	height: 70px;
+	border-color: #4AE4BD;
+	border-radius: 10px;
+	color: white;
+}
+
+
+
+.antecela
+{
+	margin-left: 30px;
+}
+
+.antecela p
+{
+	color: white;
+	display: inline;
+	font-size: 20px;
+}
+
+.antecela select
+{
+	position: absolute;
+	left: 170px;
+}
+.antecela input
+{
+	display: block;
+	margin: 5px;
+	padding: 5px;
+	font-size: 16px;
+	margin-left: 169px;
+	margin-right: 30px;
+	width: 200px;
+	background-color: #1A304D;
+	height: 20px;
+	border-color: #4AE4BD;
+	border-radius: 10px;
+	color: white;
+	margin-bottom: 30px;
+}
+
+.antecela .otros
+{
+	font-size: 16px;
+	margin-left: 170px;
+	margin-top: 30px;
+}
+
+.antec
+{
+	margin: 5px;
+	padding: 5px;
+	font-size: 16px;
+	margin-left: 53px;
+	margin-right: 30px;
+	width: 760px;
+	display: inline;
+	margin-bottom: 10px; 
+	background-color: #1A304D;
+	height: 70px;
+	border-color: #4AE4BD;
+	border-radius: 10px;
+	color: white;
+}
+
+.pesohistory p
+{
+	color: white;
+	display: inline;
+}
+
+.lifestyle
+{
+	margin-left: 30px;
+}
+
+.lifestyle h3
+{
+	color: white;
+	display: inline;
+}
+
+.lifestyle p
+{
+	color: white;
+	display: inline;
+}
+
+.lifestyle input
+{
+	margin: 5px;
+	padding: 5px;
+	font-size: 16px;
+	margin-left: 53px;
+	margin-right: 30px;
+	width: 100px;
+	display: inline;
+	margin-bottom: 10px; 
+	background-color: #1A304D;
+	height: 20px;
+	border-color: #4AE4BD;
+	border-radius: 10px;
+	color: white;
+}
+
+
+
+.nao
+{
+	margin-left: 20px;
+}
+
+.nao p
+{
+	color: white;
+	display: inline;
+}
+
+.nao input
+{
+	margin: 5px;
+	padding: 5px;
+	font-size: 16px;
+	margin-left: 53px;
+	margin-right: 30px;
+	width: 100px;
+	display: inline;
+	margin-bottom: 10px; 
+	background-color: #1A304D;
+	height: 20px;
+	border-color: #4AE4BD;
+	border-radius: 10px;
+	color: white;
+}
+
+.nao .checki
+{
+	margin-left: 10px;
+	margin-right: 5px;
+}
+
+.nao .last
+{
+	display: block;
+}
+
+button
+{
+	background-image: linear-gradient(to right, #4AE4BD , #9FEB82);
+	color: black;
+	border-radius: 8px;
+	border-color: none;
+	font-size: 20px;
+	width: 380px;
+	margin-bottom: 30px;
+	height: 50px;
+}
+
+input, button:focus {
+    outline:none;
+}

@@ -1,0 +1,88 @@
+@font-face
+{
+	font-family: 'Lato';
+	src: url('font/Lato-Regular.ttf')
+}
+
+html body
+{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Lato';
+	background-color: #131C28;
+}
+
+header
+{
+	margin-bottom: 30px;
+}
+.navegacion
+{
+	border-bottom-style: ridge;
+	background-color: #1A304D;
+	border-bottom-style: none;
+}
+
+
+.namesini
+{
+	display: inline;
+	padding-bottom: 40px;
+	top: 15px;
+	left: 1315px;
+	position: absolute;
+}
+
+.namesini h1
+{
+	display: inline;
+	text-align: center;
+	color: white;
+	font-size: 25px;
+}
+
+.contacto
+{
+	display: inline;
+	float: right;
+	padding-top: 7.5px;
+	padding-right: 7.5px;
+}
+.contacto img
+{
+	padding-left: 10px;
+	width: 50px;
+	height: 50px;
+}
+
+div
+{
+	margin: 20px;
+}
+
+button
+{
+	margin: 30px;
+	background-image: linear-gradient(to right, #4AE4BD , #9FEB82);
+	color: black;
+	border-color: none;
+	font-size: 20px;
+	width: 200px;
+	margin-bottom: 30px;
+	height: 500px;
+}
+
+.rend
+{
+	margin-left: 650px;
+}
+
+.cosas
+{
+	position: absolute;
+	left: 200px;
+}
+
+input, button:focus {
+    outline:none;
+}

@@ -1,0 +1,80 @@
+@font-face
+{
+	font-family: 'Lato';
+	src: url('font/Lato-Regular.ttf')
+}
+
+html body
+{
+	margin: 0px;
+	padding: 0px;
+	background-color: #131C28;
+	font-family: 'Lato';
+}
+
+.divtext
+{
+	margin: 0px;
+	padding: 0px;
+	width: 380px;
+}
+
+.div1
+{
+	background-color: none;
+	width: 700px;
+	height: 600px;
+	display: block;
+	margin-left: 250px;
+	padding-top: 150px;
+}
+
+h2
+{
+	color: white;
+	font-family: 'Lato';
+	font-size: 20px;
+	padding-left: 20px;
+}
+
+h1
+{
+	color: white;
+	font-size: 15px;
+	padding-left: 20px;
+}
+
+img
+{
+	margin-left: 10px;
+}
+.txt
+{
+	padding: 5px;
+	font-size: 15px;
+	width: 380px;
+	display: inline;
+	margin-bottom: 10px; 
+	background-color: #1A304D;
+	height: 25px;
+	border-color: #4AE4BD;
+	border-radius: 10px;
+	color: white;
+
+}
+
+button
+{
+	margin-left: 20px;
+	background-image: linear-gradient(to right, #4AE4BD , #9FEB82);
+	color: black;
+	border-radius: 8px;
+	border-color: none;
+	
+	width: 380px;
+	height: 50px;
+}
+
+input, button:focus {
+    outline:none;
+}

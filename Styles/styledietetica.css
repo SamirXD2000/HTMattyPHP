@@ -1,0 +1,137 @@
+@font-face
+{
+	font-family: 'Lato';
+	src: url('font/Lato-Regular.ttf')
+}
+
+html body
+{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Lato';
+	background-color: #131C28;
+}
+
+header
+{
+	margin-bottom: 30px;
+}
+.navegacion
+{
+	border-bottom-style: ridge;
+	background-color: #1A304D;
+	border-bottom-style: none;
+}
+
+
+.namesini
+{
+	display: inline;
+	padding-bottom: 40px;
+	top: 15px;
+	left: 1315px;
+	position: absolute;
+}
+
+.namesini h1
+{
+	display: inline;
+	text-align: center;
+	color: white;
+	font-size: 25px;
+}
+
+.contacto
+{
+	display: inline;
+	float: right;
+	padding-top: 7.5px;
+	padding-right: 7.5px;
+}
+.contacto img
+{
+	padding-left: 10px;
+	width: 50px;
+	height: 50px;
+}
+
+
+.theone
+{
+	padding-left: 20px;
+	color: white;
+	display: inline;
+}
+
+.theone input
+{
+	display: block;
+	padding: 5px;
+	font-size: 15px;
+	width: 250px;
+	margin-bottom: 10px; 
+	background-color: #1A304D;
+	height: 25px;
+	border-color: #4AE4BD;
+	border-radius: 10px;
+	color: white;
+}
+.theone p
+{
+	color: white;
+	display: inline;
+}
+
+
+.frec p
+{
+	color: white;
+	display: inline;
+}
+
+.frec select
+{
+	background-color: #1A304D;
+	border-color: #4AE4BD;
+	margin-left: 10px;
+	margin-right: 25px;
+	display: inline;
+	color: #51CFFF;
+	margin-bottom: 20px;
+}
+
+.dietita p
+{
+	color: white;
+	display: inline;
+}
+
+section
+{
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.dietita input
+{
+	display: block;
+	padding: 5px;
+	font-size: 15px;
+	width: 500px;
+	margin-bottom: 10px; 
+	background-color: #1A304D;
+	height: 50px;
+	border-color: #4AE4BD;
+	border-radius: 10px;
+	color: white;
+}
+
+h1
+{
+	color: white;
+	font-size: 25px;
+}
+
+input, button:focus {
+    outline:none;
+}

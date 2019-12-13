@@ -1,0 +1,112 @@
+@font-face
+{
+	font-family: 'Lato';
+	src: url('font/Lato-Regular.ttf')
+}
+
+html body
+{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Lato';
+	background-color: #131C28;
+}
+
+header
+{
+	margin-bottom: 30px;
+}
+.navegacion
+{
+	border-bottom-style: ridge;
+	background-color: #1A304D;
+	border-bottom-style: none;
+}
+
+
+.namesini
+{
+	display: inline;
+	padding-bottom: 40px;
+	top: 15px;
+	left: 1315px;
+	position: absolute;
+}
+
+.namesini h1
+{
+	display: inline;
+	text-align: center;
+	color: white;
+	font-size: 25px;
+}
+
+.contacto
+{
+	display: inline;
+	float: right;
+	padding-top: 7.5px;
+	padding-right: 7.5px;
+}
+.contacto img
+{
+	padding-left: 10px;
+	width: 50px;
+	height: 50px;
+}
+
+.mediciones
+{
+	padding: 20px;
+}
+
+h1
+{
+	color: white;
+	text-align: center;
+}
+
+p
+{
+	display: inline;
+	padding-left: 30px;
+	color: white;
+	padding-right: 10px;
+}
+
+input
+{
+	border-radius: 3px;
+	padding: 5px;
+	color: white;
+	border-color: #4AE4BD;
+	background-color: #1A304D;
+	width: 100px;
+	height: 20px;
+}
+
+.mediciones input
+{
+	margin-bottom: 20px;
+}
+
+.bioimpedancia
+{
+	padding: 20px;
+}
+
+.biomipedancia input
+{
+	margin-bottom: 20px;
+}
+
+.observaciones input
+{
+	margin-left: 240px;
+	height: 100px;
+	width: 1000px;
+}
+
+input, button:focus {
+    outline:none;
+}

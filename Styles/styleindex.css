@@ -1,0 +1,133 @@
+@font-face
+{
+	font-family: 'Lato';
+	src: url('font/Lato-Regular.ttf')
+}
+
+html body
+{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Lato';
+	background-color: #131C28;
+}
+
+
+.navegacion
+{
+	border-bottom-style: ridge;
+	background-color: #1A304D;
+	border-bottom-style: none;
+}
+
+
+.namesini
+{
+	display: inline;
+	padding-bottom: 40px;
+	top: 15px;
+	left: 1315px;
+	position: absolute;
+}
+
+.namesini h1
+{
+	display: inline;
+	text-align: center;
+	color: white;
+	font-size: 25px;
+}
+
+.searchdiv
+{
+	padding-top: 30px;
+	margin-left: 1180px;
+	padding-bottom: 30px;
+}
+
+.searchdiv img
+{
+	width: 20px;
+	height: 20px;
+}
+
+
+.searchbar
+{
+	width: 250px;
+	height: 30px;
+	font-size: 18px;
+	padding: 5px;
+	border-radius: 5px;
+	border-color: #4AE4BD;
+	background-color: #1A304D;
+	color: white;
+}
+
+.contacto
+{
+	display: inline;
+	float: right;
+	padding-top: 7.5px;
+	padding-right: 7.5px;
+}
+.contacto img
+{
+	padding-left: 10px;
+	width: 50px;
+	height: 50px;
+}
+
+.pacientes
+{
+	background-color: none;
+	padding: 20px;
+	display: inline-block;
+}
+
+.pac
+{
+	display: inline-block;
+	border-color: black;
+	border-style: ridge;
+	padding-right: 0px;
+	width: 300px;
+	display: inline-block;
+	padding-left: 20px;
+	margin: 20px;
+	background-color: #1A304D;
+	border-radius: 6px;
+	border: none;
+
+}
+
+.pac h2
+{
+	padding-top: 20px;
+	color: white;
+}
+
+.pac h3
+{
+	display: inline;
+	padding-left: 200px;
+	color: #51CFFF;
+}
+
+
+
+.mas img
+{
+	height: 150px;
+}
+
+input, button:focus {
+    outline:none;
+}
+
+div img
+{
+	height: 30px;
+	margin-left: 250px;
+	margin-bottom: 20px;
+}
